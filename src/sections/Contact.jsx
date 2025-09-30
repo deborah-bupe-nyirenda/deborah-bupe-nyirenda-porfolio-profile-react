@@ -34,15 +34,18 @@ const Contact = () => {
 
     try {
       console.log("form submitted!!", formData);
-      await emailjs.send("service_xkqjlef","template_nuf2xvc", {
-      from_name: formData.name,
-      to_name: "Debs",
-      from_email: formData.email,
-      to_email: "nyirendadeborahbupe126@gmail.com",
-      message: formData.message
-    }, "9mVVV9HD-lkjhFyIE");
-    // service_xkqjlef
-    // template_nuf2xvc
+        await emailjs.send(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          {
+            from_name: formData.name,
+            to_name: "Debs",
+            from_email: formData.email,
+            to_email: "nyirendadeborahbupe126@gmail.com",
+            message: formData.message
+          },
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY // The Public Key/User ID
+        );
 
     setIsLoading(false);
     setFormData({name:"", email:"", message:""});
@@ -124,5 +127,6 @@ const Contact = () => {
     </section>
   )
 }
+
 
 export default Contact
