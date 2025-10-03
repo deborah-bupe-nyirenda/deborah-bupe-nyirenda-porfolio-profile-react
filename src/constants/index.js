@@ -152,12 +152,12 @@ export const reviews = [
     body: "As Project Coordinator, I had the privilege of working closely with Deborah during UCS’s rebranding and website initiatives. Her leadership, creativity, and commitment ensured that both projects not only met their goals but also elevated the organization’s presence. She consistently brought clarity and vision, making her contributions invaluable to the success of the team.",
     img: "https://robohash.org/jack",
   },
-  // {
-  //   name: "Jill",
-  //   username: "@jill",
-  //   body: "I don't know what to say. I'm speechless. This is amazing.",
-  //   img: "https://robohash.org/jill",
-  // },
+   {
+     name: "Rudyii Chibwe",
+     username: "Work Collegue",
+     body: "I have had the privilege of working with DBN (Deborah Bupe Nyirenda) and this isn't an exaggeration. Her work ethic is immaculate, her ability to think rationally and solve problems was absolutely helpful in building a complete project, she worked on the frontend while I on the API endpoints. Her designs are beautiful hope I get to work with her on another project soon.",
+     img: "https://robohash.org/jill",
+  },
   // {
   //   name: "John",
   //   username: "@john",
