@@ -21,7 +21,7 @@ const About = () => {
           />
           <div className=" z-10">
             <p className="headtext">Hi, I'm Deborah Bupe Nyirenda</p>
-            <p className="subtext">I'm a 3rd Year Software Engineering Student at the University of Zambia, and i love to create projects that are not only visually apealing but funcional. Over the past few years I've honed my graphic design, UI/UX and coding skills and my goal is design and develop projects that have meaning, are creative and impactful.</p>
+            <p className="subtext">I'm a 4th Year Software Engineering Student at the University of Zambia, and i love to create projects that are not only visually apealing but funcional. Over the past few years I've honed my graphic design, UI/UX and coding skills and my goal is design and develop projects that have meaning, are creative and impactful.</p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
@@ -77,4 +77,5 @@ const About = () => {
 
 
 export default About
+
 
